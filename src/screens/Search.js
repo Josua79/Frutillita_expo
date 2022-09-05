@@ -57,7 +57,7 @@ const Search = () => {
                 <SvgSearch />
               </View>
               <Text style={styles.searchPlaceholderText}>
-                Artists, songs or podcasts
+                Artistas, canciones o géneros
               </Text>
             </TouchableOpacity>
           </Animated.View>

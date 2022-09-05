@@ -15,7 +15,14 @@ export default {
   'Extraordinary Machine': extraordinaryMachine,
   'Man On The Moon II: The Legend of Mr. Rager': manOnTheMoon2,
   'Sea Of Cowards': seaOfCowards,
-  Swimming: swimming,
+  'Swimming': swimming,
   'WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?': whenWeAllFallAsleep,
-  'Wish You Were Here': wishYouWereHere
+  'Wish You Were Here': wishYouWereHere,
+  'Stadium Arcadium': manOnTheMoon2,
+  'The Creek Drank The Cradle': seaOfCowards,
+  'Houses Of The Holy': comeAroundSundown,
+  'Illuminate': extraordinaryMachine,
+  'The Lonesome Crowded West': seaOfCowards,
+  'Blank Face LP': bornToDie,
+  'Dear Miss Lonelyhearts': exRe
 };

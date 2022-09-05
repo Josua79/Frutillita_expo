@@ -12,7 +12,7 @@ import yourLibrary from '../mockdata/menuYourLibrary.json';
 const Library = () => (
   <View style={gStyle.container}>
     <View style={styles.containerHeader}>
-      <ScreenHeader title="Your Library" />
+      <ScreenHeader title="Tu librería" />
     </View>
 
     <FlatList

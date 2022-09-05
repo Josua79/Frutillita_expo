@@ -8,7 +8,7 @@ export default {
   blackBlur: '#161616',
 
   // theme colors
-  blackBg: '#4E001D',
+  blackBg: '#272727',
   transparent: 'transparent',
   brandPrimary: '#57b660',
   grey: '#282828',
@@ -17,6 +17,6 @@ export default {
   greySwitchBorder: '#404040',
   greyOff: '#3e3e3e',
   grey3: '#333',
-  bgTab: '#014800',
+  bgTab: '#272727',
   bgTabInactive: '#3C0016',
 };
