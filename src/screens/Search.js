@@ -97,13 +97,6 @@ const Search = () => {
           })}
         </View>
       </Animated.ScrollView>
-
-      <View style={styles.iconRight}>
-        <TouchIcon
-          icon={<FontAwesome color={colors.white} name="microphone" />}
-          onPress={() => null}
-        />
-      </View>
     </React.Fragment>
   );
 };

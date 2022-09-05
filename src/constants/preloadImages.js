@@ -20,7 +20,12 @@ const theLegendOfMrRager = require('../assets/images/albums/the-legend-of-mr-rag
 const theLonesomeCrowdedWest = require('../assets/images/albums/the-lonesome-crowded-west.jpg');
 const whenWeAllFallAsleep = require('../assets/images/albums/when-we-all-fall-asleep.jpg');
 const wishYouWereHere = require('../assets/images/albums/wish-you-where-here.jpg');
-
+const Freddy = require('../assets/images/Artists/freddy.png');
+const Aron = require('../assets/images/Artists/aron.png');
+const Ariel = require('../assets/images/Artists/ariel.png');
+const Jhon = require('../assets/images/Artists/vallejo.png');
+const Joshua = require('../assets/images/Artists/joshua.png');
+const Jorge = require('../assets/images/Artists/jorge.png');
 export default {
   user,
 
@@ -39,5 +44,11 @@ export default {
   theLegendOfMrRager,
   theLonesomeCrowdedWest,
   whenWeAllFallAsleep,
-  wishYouWereHere
+  wishYouWereHere,
+  Freddy,
+  Aron,
+  Ariel,
+  Jhon,
+  Joshua,
+  Jorge
 };

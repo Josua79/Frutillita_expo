@@ -122,17 +122,6 @@ const Album = ({ navigation, route }) => {
           <Animated.View style={{ opacity: opacityShuffle }}>
             <Text style={styles.headerTitle}>{album.title}</Text>
           </Animated.View>
-          <TouchIcon
-            icon={<Feather color={colors.white} name="more-horizontal" />}
-            onPress={() => {
-              // update main state
-              updateState('showMusicBar', !showMusicBar);
-
-              navigation.navigate('ModalMoreOptions', {
-                album
-              });
-            }}
-          />
         </View>
       </View>
 
@@ -176,7 +165,7 @@ const Album = ({ navigation, route }) => {
               onPress={() => null}
               style={styles.btn}
               styleText={styles.btnText}
-              text="Shuffle Play"
+              text="Reproducir álbum"
             />
           </View>
         </View>

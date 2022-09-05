@@ -10,6 +10,7 @@ import AlbumsHorizontal from '../components/AlbumsHorizontal';
 import heavyRotation from '../mockdata/heavyRotation.json';
 import jumpBackIn from '../mockdata/jumpBackIn.json';
 import recentlyPlayed from '../mockdata/recentlyPlayed.json';
+import artists from '../mockdata/artists.json'
 
 const Home = () => {
   const scrollY = React.useRef(new Animated.Value(0)).current;
@@ -40,6 +41,11 @@ const Home = () => {
         <View style={{margin:25}} />
 
         <AlbumsHorizontal data={recentlyPlayed} heading="Ultimas reproducciones" />
+
+        <AlbumsHorizontal
+          data={artists}
+          heading='Artistas'
+        />
 
         <AlbumsHorizontal
           data={heavyRotation}

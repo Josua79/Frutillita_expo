@@ -10,7 +10,7 @@ export default {
   // theme colors
   blackBg: '#272727',
   transparent: 'transparent',
-  brandPrimary: '#57b660',
+  brandPrimary: '#BD0018',
   grey: '#282828',
   greyInactive: '#b3b3b3',
   greyLight: '#bebebe',
