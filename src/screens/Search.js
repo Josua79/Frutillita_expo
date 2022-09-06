@@ -63,7 +63,7 @@ const Search = () => {
           </Animated.View>
         </View>
 
-        <Text style={styles.sectionHeading}>Your top genres</Text>
+        <Text style={styles.sectionHeading}>Géneros en tendencia</Text>
         <View style={styles.containerRow}>
           {Object.keys(topGenres).map((index) => {
             const item = topGenres[index];
@@ -80,7 +80,7 @@ const Search = () => {
           })}
         </View>
 
-        <Text style={styles.sectionHeading}>Browse all</Text>
+        <Text style={styles.sectionHeading}>Explorar todo</Text>
         <View style={styles.containerRow}>
           {Object.keys(browseAll).map((index) => {
             const item = browseAll[index];
