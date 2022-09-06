@@ -26,9 +26,14 @@ const Ariel = require('../assets/images/Artists/ariel.png');
 const Jhon = require('../assets/images/Artists/vallejo.png');
 const Joshua = require('../assets/images/Artists/joshua.png');
 const Jorge = require('../assets/images/Artists/jorge.png');
+const theWildProyect = require('../assets/images/potcasts/theWildProyect.png');
+const solaris = require('../assets/images/potcasts/solaris.png');
+const criminopatia = require('../assets/images/potcasts/criminopatía.png');
+const estirandoElChicle = require('../assets/images/potcasts/estirandoElChicle.png');
+const trucoOTrato = require('../assets/images/potcasts/trucoOTrato.png');
+
 export default {
   user,
-
   blankFaceLp,
   bornToDie,
   comeAroundSundown,
@@ -50,5 +55,10 @@ export default {
   Ariel,
   Jhon,
   Joshua,
-  Jorge
+  Jorge,
+  theWildProyect,
+  solaris,
+  criminopatia,
+  trucoOTrato,
+  estirandoElChicle
 };

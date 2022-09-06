@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "image": "theWildProyect",
+        "title": "The Wild Proyect"
+    },
+    {
+        "id": 2,
+        "image": "solaris",
+        "title": "Solaris"
+    },
+    {
+        "id": 3,
+        "image": "criminopatia",
+        "title": "Criminopatía"
+    },
+    {
+        "id": 4,
+        "image": "trucoOTrato",
+        "title": "Truco o Trato"
+    },
+    {
+        "id": 5,
+        "image": "estirandoElChicle",
+        "title": "Estirando el chicle"
+    }
+]

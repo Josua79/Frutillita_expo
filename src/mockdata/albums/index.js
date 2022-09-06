@@ -7,6 +7,17 @@ import seaOfCowards from './seaOfCowards.json';
 import swimming from './swimming.json';
 import whenWeAllFallAsleep from './whenWeAllFallAsleep.json';
 import wishYouWereHere from './wishYouWereHere.json';
+import Ariel from '../artists/ariel.json';
+import Aron from '../artists/aron.json';
+import Freddy from '../artists/freddy.json';
+import John from '../artists/john.json';
+import Jorge from '../artists/jorge.json';
+import Joshua from '../artists/joshua.json';
+import theWildProyect from '../potcasts/theWildProyect.json';
+import solaris from '../potcasts/solaris.json';
+import criminopatia from '../potcasts/criminopatia.json';
+import tot from '../potcasts/tot.json';
+import eec from '../potcasts/eec.json';
 
 export default {
   'Born To Die': bornToDie,
@@ -24,5 +35,16 @@ export default {
   'Illuminate': extraordinaryMachine,
   'The Lonesome Crowded West': seaOfCowards,
   'Blank Face LP': bornToDie,
-  'Dear Miss Lonelyhearts': exRe
+  'Dear Miss Lonelyhearts': exRe,
+  'Ariel 4x4': Ariel,
+  'Aron Tu Bebé': Aron,
+  'Freddy Flow': Freddy,
+  'Jorge ya tu sabe': Jorge,
+  'John 4 life': John,
+  'Joshua Ozono': Joshua,
+  'The Wild Proyect': theWildProyect,
+  'Solaris': solaris,
+  'Criminopatía': criminopatia,
+  'Truco o Trato': tot,
+  'Estirando el chicle': eec,
 };

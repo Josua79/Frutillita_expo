@@ -11,7 +11,7 @@ import {
 import { useNavigation } from '@react-navigation/native';
 import { colors, gStyle, images } from '../constants';
 
-const AlbumsHorizontal = ({ data, heading, tagline }) => {
+const AlbumsHorizontal = ({ data, heading, tagline, itemSize, imageSize }) => {
   const navigation = useNavigation();
 
   return (
@@ -29,11 +29,11 @@ const AlbumsHorizontal = ({ data, heading, tagline }) => {
             activeOpacity={gStyle.activeOpacity}
             hitSlop={{ top: 10, left: 10, bottom: 10, right: 10 }}
             onPress={() => navigation.navigate('Album', { title: item.title })}
-            style={styles.item}
+            style={itemSize}
           >
-            <View style={styles.image}>
+            <View style={imageSize}>
               {item.image && (
-                <Image source={images[item.image]} style={styles.image} />
+                <Image source={images[item.image]} style={imageSize} />
               )}
             </View>
             <Text style={styles.title}>{item.title}</Text>
@@ -78,15 +78,6 @@ const styles = StyleSheet.create({
     color: colors.greyInactive,
     paddingBottom: 6,
     textAlign: 'center'
-  },
-  item: {
-    marginRight: 16,
-    width: 148
-  },
-  image: {
-    backgroundColor: colors.greyLight,
-    height: 148,
-    width: 148
   },
   title: {
     ...gStyle.textSpotifyBold12,

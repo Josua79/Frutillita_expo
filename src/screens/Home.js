@@ -11,6 +11,7 @@ import heavyRotation from '../mockdata/heavyRotation.json';
 import jumpBackIn from '../mockdata/jumpBackIn.json';
 import recentlyPlayed from '../mockdata/recentlyPlayed.json';
 import artists from '../mockdata/artists.json'
+import potcasts from '../mockdata/potcasts.json';
 
 const Home = () => {
   const scrollY = React.useRef(new Animated.Value(0)).current;
@@ -40,23 +41,58 @@ const Home = () => {
       >
         <View style={{margin:25}} />
 
-        <AlbumsHorizontal data={recentlyPlayed} heading="Ultimas reproducciones" />
+        <AlbumsHorizontal 
+          data={recentlyPlayed} 
+          heading="Ultimas reproducciones" 
+          itemSize={albumStyle.item2}
+          imageSize={albumStyle.image2}
+        />
 
         <AlbumsHorizontal
           data={artists}
-          heading='Artistas'
+          heading='Artistas - Album 2022'
+          itemSize={albumStyle.item}
+          imageSize={albumStyle.image}
         />
 
         <AlbumsHorizontal
           data={heavyRotation}
           heading="Tendencias"
           tagline="Se reproduce como pan caliente."
+          itemSize={albumStyle.item}
+          imageSize={albumStyle.image}
+        />
+
+        <AlbumsHorizontal
+          data={potcasts}
+          heading='Potcasts'
+          tagline='Lo más escuchado del mes'
+          itemSize={albumStyle.item2}
+          imageSize={albumStyle.image2}
         />
 
         <AlbumsHorizontal
           data={jumpBackIn}
           heading="Recomendados para tí"
           tagline="Músicas para tí según basadas en tus gustos."
+          itemSize={albumStyle.item}
+          imageSize={albumStyle.image}
+        />
+
+        <AlbumsHorizontal 
+          data={recentlyPlayed} 
+          heading="Lo más esperado" 
+          tagline="Top trending de este año"
+          itemSize={albumStyle.item2}
+          imageSize={albumStyle.image2}
+        />
+
+        <AlbumsHorizontal
+          data={heavyRotation}
+          heading="Descubre"
+          tagline="Música basada en tus gustos"
+          itemSize={albumStyle.item}
+          imageSize={albumStyle.image}
         />
       </Animated.ScrollView>
     </React.Fragment>
@@ -82,7 +118,29 @@ const styles = StyleSheet.create({
     top: 0,
     width: '100%',
     zIndex: 10
-  }
+  },
+  
 });
+
+const albumStyle = StyleSheet.create({
+  item: {
+    marginRight: 16,
+    width: 120
+  },
+  item2: {
+    marginRight: 16,
+    width: 180
+  },
+  image: {
+    backgroundColor: colors.transparent,
+    height: 120,
+    width: 120
+  },
+  image2: {
+    backgroundColor: colors.transparent,
+    height: 180,
+    width: 180
+  },
+})
 
 export default Home;
